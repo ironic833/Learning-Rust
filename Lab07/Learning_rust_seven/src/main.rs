@@ -12,4 +12,11 @@ fn main() {
     let Salary_amount: i32 = myInfo.1;
 
     let someInfo: (&str, i32, (&str, i32)) = ("Salary", 40_000, ("car", 200));
+    let element = someInfo.2.0;
+
+    let empty_tuple: () = {};
+
+    let mut number_array: [i32:5] = [4,5,6,8,9];
+
+    println!("{}", number_array.0);
 }
